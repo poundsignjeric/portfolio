@@ -1,0 +1,12 @@
+.cell {
+  background: red;
+  border: 1px dashed black;
+}
+.auto {
+  background: white;
+  border: none;
+}
+
+.grid-container {
+  background: black;
+}
