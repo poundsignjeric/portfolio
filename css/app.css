@@ -1,6 +1,6 @@
-/** {
-  outline: 1px solid pink;
-}*/
+/* * {
+  background: pink;
+} */
 @import url('https://fonts.googleapis.com/css?family=Poiret+One|Raleway');
 body {
   font-family: 'Raleway', sans-serif;
@@ -13,4 +13,13 @@ h2 {
 }
 p {
   line-height: 1.25em;
+}
+header, footer {
+  background: pink;
+  height: auto;
+  margin-bottom: 15px;
+}
+.menu {
+  margin: 20px;
+  padding-top: 10px;
 }
