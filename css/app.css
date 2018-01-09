@@ -1,25 +1,85 @@
 /* * {
-  background: pink;
+  border: 1px solid;
 } */
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Roboto');
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  background: rgb(210, 147, 255);
+  overflow-x: hidden;
+}
+.grid-container {
+  background: rgb(210, 147, 255);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poiret One', cursive;
 }
+h1 {
+  font-size: 3rem;
+  padding: 10px;
+}
 h2 {
-  font-size: 1.35rem;
+  font-size: 2rem;
+  text-align: center;
+}
+h3 {
+  font-size: 1.1rem;
 }
 p {
   line-height: 1.25em;
 }
-header, footer {
-  background: pink;
-  height: auto;
-  margin-bottom: 15px;
+header {
+  background: #FFF;
+  padding: 10px 7px;
+  border-radius: 5px;
+  /* margin-left: 10px; */
+  /* border-bottom: 2px solid rgb(210, 147, 255); */
+}
+footer {
+  background: #FFF;
+  width: auto;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
 }
 .menu {
-  margin: 20px;
+  margin: 20px 2px;
   padding-top: 10px;
+  /* display: block; */
+}
+/* ol.menu {
+  text-align: center;
+} */
+img {
+  padding: 20px;
+  text-align: center;
+}
+/* NAV STYLES */
+nav a:link, nav a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1em;
+}
+nav a:hover {
+  color: rgb(210, 147, 255);
+  background: #FFF;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+nav a.current {
+  color: #FFF;
+}
+/* End of Nav Styles */
+a:link, a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1em;
+}
+a:hover {
+  color: #FFF;
+  /* background: #FFF;
+  border: 1px solid black; */
+}
+a:current {
+  color: #FFF;
 }
