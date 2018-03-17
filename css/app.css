@@ -1,25 +1,26 @@
-/* * {
-  border: 1px solid;
-} */
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
 body {
-  font-family: 'Roboto', sans-serif;
-  padding: 10px;
-  background: rgb(210, 147, 255);
+  font-family: 'Raleway', sans-serif;
+  /* background: rgb(210, 147, 255); */
+  background: #cc9966;
   overflow-x: hidden;
+  width: auto;
 }
 .grid-container {
-  background: rgb(210, 147, 255);
+  padding: 5px;
+  margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Playfair Display', serif;
 }
 h1 {
   font-size: 3rem;
+  font-weight: bold;
   padding: 10px;
 }
 h2 {
   font-size: 2rem;
+  font-weight: bold;
   text-align: center;
 }
 h3 {
@@ -29,22 +30,25 @@ p {
   line-height: 1.25em;
 }
 header {
-  background: #FFF;
-  padding: 10px 7px;
-  border-radius: 5px;
+  /* background: #FFF; */
+  padding: 0 auto;
+  margin: 0 auto;
+  /* border-radius: 5px; */
   /* margin-left: 10px; */
   /* border-bottom: 2px solid rgb(210, 147, 255); */
 }
 footer {
-  background: #FFF;
+  /* background: #FFF; */
   width: auto;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 5px;
+  padding: 0 auto;
+  margin: 10px auto;
+  /* padding: 10px;
+  margin: 5px; */
+  /* border-radius: 5px; */
 }
 .menu {
-  margin: 20px 2px;
-  padding-top: 10px;
+  margin: 10px 3px;
+  padding: 10px;
   /* display: block; */
 }
 /* ol.menu {
@@ -53,6 +57,7 @@ footer {
 img {
   padding: 20px;
   text-align: center;
+  margin: 0 auto;
 }
 /* NAV STYLES */
 nav a:link, nav a:visited {
@@ -61,10 +66,10 @@ nav a:link, nav a:visited {
   font-size: 1em;
 }
 nav a:hover {
-  color: rgb(210, 147, 255);
-  background: #FFF;
-  border: 1px solid black;
-  border-radius: 5px;
+  color: #FFF;
+  /* background: #FFF; */
+  /* border: 1px solid black;
+  border-radius: 5px; */
 }
 nav a.current {
   color: #FFF;
